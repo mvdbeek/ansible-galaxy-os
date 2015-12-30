@@ -5,7 +5,7 @@
   when: ansible_distribution_version <= "15.04"
 
 - name: Add custom Galaxy PPA (used for nginx package)
-  apt_repository: repo="ppa:m-vandenbeek/nginx-upload-store" update_cache=no
+  apt_repository: repo="ppa:m-vandenbeek/nginx-upload-store" update_cache=yes
   when: ansible_distribution_version > "15.04"
 
 - name: Add Docker repository key
