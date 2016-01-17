@@ -1,0 +1,2 @@
+- name: Create export dir
+  file: path="{{ export_dir }}" owner="{{ galaxy_user_name }}" group="{{ galaxy_user_name }}" state=present

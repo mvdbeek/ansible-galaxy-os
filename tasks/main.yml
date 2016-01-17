@@ -6,3 +6,6 @@
 
 - include: system_users.yml
   when: add_system_users
+
+- include: create_export_dir.yml
+  when: create_export_dir
