@@ -38,7 +38,8 @@
     - libsparsehash-dev
     - make
     - mercurial
-    - nginx-extras
+    - nginx-common=1.4.6-1ubuntu3.3ppa1
+    - nginx-extras=1.4.6-1ubuntu3.3ppa1
     - openssh-server
     - patch
     - pkg-config
